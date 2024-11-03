@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Tesla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="./img/logo.png" alt="logo Tesla" class="logo">
+
+    <ul class="lista">
+
+        <!--Item 1-->
+        <li class="item">
+            <div class="form-inicio">
+
+                
+
+                <video src="./img/model-y.mp4" autoplay muted loop></video>
+                <div class="info-carro">
+                    <h1>Model Y</h1>
+                    <p class="sub-titulo">Parcelas a partir de 49 dólares</p>
+                </div>
+                <div class="rodape">
+                
+                        <button onclick="aparecerFormulario()">Comprar agora</button>
+
+                    <button class="teste-drive" onclick="aparecerFormulario()">Faça um Teste-Drive</button>
+
+                    <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
+            </div>
+        </div>
+        </li>
+
+        <!--Item 2-->
+        <li class="item">
+            <img src="./img/model-3.png" alt="imagem model 3" class="img-tesla">
+            <div class="info-carro">
+                <h1>Model 3</h1>
+                <p class="sub-titulo">Compre agora o seu Tesla</p>
+            </div>
+        </li>
+
+        <!--Item 3-->
+        <li class="item">
+            <img src="./img/model-x.png" alt="imagem model x" class="img-tesla">
+            <div class="info-carro">
+                <h1 class="model-x">Model X</h1>
+                <p class="sub-titulo1">Parcelas a partir de 49 dólares</p>
+            </div>
+        </li>
+    </ul>
+    
+    
+    <form class="formulario" action="dados.js" autocomplete="off">
+
+        
+            <div class="container">
+
+                <button type="button" onclick="desaparecerFormulario()" class="button-fechar">Fechar</button>
+                
+
+                <h1 class=titulo-formulario>Cadastro de Dados</h1>
+                <p>Preencha os campos abaixo para entrarmos em contato!</p>
+
+                <label class="label-nome" for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <input class="submit" type="submit" id="submit">
+            </div>
+
+            <script src="scripts.js"></script>
+
+    </form>
+    
+</body>
+
+</html>
