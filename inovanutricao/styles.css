@@ -8,6 +8,7 @@
 body {
      opacity: 1;
      transition: opacity 0.5s;
+     z-index: 1000000000000000;
  }
  
  body.loaded {
