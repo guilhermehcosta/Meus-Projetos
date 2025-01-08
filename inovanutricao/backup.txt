@@ -1,0 +1,743 @@
+html: 
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inova Nutrição</title>
+    <link rel="shortcut icon" href="assets/five-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Road+Rage&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+
+    
+        <div class="nav-hidden">
+            <nav class="nav-1">
+                <div class="item">
+                    <img src="assets/TeleIcon.svg" width="18hug" height="18hug" alt="">
+                    <p>(34) 9 3333 3333</p>
+                </div>
+                <div class="item">
+                    <img src="assets/ZapIcon.svg" width="18hug" height="18hug" alt="">
+                    <p>(34) 9 3333 3333</p>
+                </div>
+            </nav>
+            <nav class="nav-2">
+                <div class="item">
+                    <img src="assets/EmailIcon.svg" width="18hug" height="18hug" alt="">
+                    <p>contato@inovarenutri.com.br</p>
+                </div>
+                <div class="item">
+                    <img src="assets/FaceIcon.svg" width="36hug" height="36hug" alt="">
+                    <img src="assets/InstaIcon.svg" width="36hug" height="36hug" alt="">
+                    <img src="assets/YtIcon.svg" width="36hug" height="36hug" alt="">
+                    <img src="assets/TikTokIcon.svg" width="36hug" height="36hug" alt="">
+                </div>
+            </nav>
+        </div>
+
+        <header>
+        
+            <nav class="nav-3">
+                <img src="assets/logoescura.png" alt="">
+                <button><a href="#home">Home</a></button>
+                <button><a href="#sobre-mim">Sobre Nós</a></button>
+                <button><a href="#especialidades">Especialidades</a></button>
+                <button><a href="#contato">Contato</a></button>
+                <button class="strong"><a href="">Agendar Consulta</a></button>
+            </nav>
+        
+
+    </header>
+
+    <section class="banner-background" id="home">
+        <div class="banner">
+            <div>
+                <h1>Ajudamos você a encontrar sua melhor forma</h1>
+                <p>Trate seu corpo com carinho!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-mim" id="sobre-mim">
+        <img src="assets/sobremim.png" alt="">
+        <article>
+            <p class="subtitle">Olá, somos a</p>
+            <h1>Inova Nutrição</h1>
+            <p>Somos uma clínica de nutrição especializada em oferecer consultas personalizadas com nutricionistas experientes.</p>
+            <p>Nossa equipe é composta por profissionais altamente treinados que trabalham em estreita colaboração para garantir que cada paciente receba o cuidado e orientação nutricional de que precisa. Acreditamos que a nutrição é a base para a saúde e bem-estar e estamos comprometidos em ajudar nossos pacientes a alcançar seus objetivos de saúde.</p>
+            <p>Oferecemos uma variedade de programas e serviços, incluindo consultas individuais, avaliações nutricionais, orientações para doenças crônicas e programas de perda de peso. Nós trabalhamos com nossos pacientes para desenvolver planos de tratamento personalizados que são seguros, eficazes e sustentáveis.</p>
+            <p>Entre em contato conosco hoje para marcar uma consulta e começar sua jornada para uma vida mais saudável.</p>
+        </article>
+    </section>
+
+    <section class="especialidades">
+        <h1>Por que ter acompanhamento nutricional?</h1>
+        <div class="card-section">
+            <div class="card">
+                <img src="assets/Icon1.svg" alt="">
+                <h3>Alcançar objetivos específicos</h3>
+                <p>Um acompanhamento nutricional personalizado pode ajudar a alcançar objetivos de saúde específicos, como perda de peso, ganho de massa muscular, melhora da saúde do coração e gerenciamento de doenças crônicas.</p>
+            </div>
+            <div class="card" id="strong">
+                <img src="assets/Icon2.svg" alt="">
+                <h3>Melhoria da qualidade de vida</h3>
+                <p>Um acompanhamento nutricional pode ajudar a identificar e corrigir problemas nutricionais que possam estar afetando sua saúde e bem-estar e proporcionar uma vida mais saudável e com mais energia.</p>
+            </div>
+            <div class="card">
+                <img src="assets/Icon3.svg" alt="">
+                <h3>Aprender sobre nutrição</h3>
+                <p>Aprender sobre nutrição de forma precisa e personalizada. Um nutricionista pode esclarecer dúvidas sobre os nutrientes que precisamos, como escolher alimentos saudáveis e criar hábitos alimentares saudáveis.</p>
+            </div>
+        </div>
+
+        <button>Agendar Consulta</button>
+    </section>
+
+    <section class="especialidades2" id="especialidades">
+
+        <h1>Conheça Nossas Especialidades</h1>
+        <p>Seja qual for a sua necessidade, temos a solução certa para você</p>
+
+        <div class="card2-section">
+            <div class="card2" id="strong-green">
+                <img src="assets/Icon4.svg" alt="">
+                <article>
+                    <h3>Nutrição Esportiva</h3>
+                    <p>A nutrição esportiva é o estudo da nutrição e suplementação voltadas para o desempenho esportivo. Ela ajuda atletas e praticantes de exercícios a alcançar seus objetivos de desempenho, fornecendo orientação sobre dieta e suplementação adequadas para melhorar a resistência, aumentar a massa muscular e recuperar-se mais rapidamente. A nutrição esportiva também ajuda a prevenir lesões e doenças relacionadas ao exercício.</p>
+                </article>
+            </div>
+            <div class="card2">
+                <img src="assets/Icon5.svg" alt="">
+                <article>
+                    <h3>Nutrição Clinica</h3>
+                    <p>A nutrição clínica oferece soluções eficazes para prevenir e tratar doenças através de planos alimentares personalizados. Nossos nutricionistas clínicos trabalham em conjunto com médicos para garantir a recuperação e o sucesso do tratamento de seus pacientes. A nutrição clínica também é fundamental para o sucesso da recuperação de pacientes após cirurgias ou traumas. Faça a escolha certa para sua saúde e bem-estar e investir na nutrição clínica.</p>
+                </article>
+            </div>
+            <div class="card2" id="strong-green">
+                <img src="assets/Icon6.svg" alt="">
+                <article>
+                    <h3>Nutrição Pediátrica</h3>
+                    <p>A nutrição pediátrica é essencial para o desenvolvimento saudável e o crescimento dos nossos filhos. Como nutricionistas pediátricos, estamos altamente capacitados para fornecer orientações precisas e personalizadas sobre dietas e suplementos para garantir que as crianças estejam recebendo os nutrientes essenciais de que precisam para crescer e desenvolver-se de forma saudável.</p>
+                </article>
+            </div>
+            <div class="card2">
+                <img src="assets/Icon7.svg" alt="">
+                <article>
+                    <h3>Consultoria Nutricional</h3>
+                    <p>A consultoria nutricional é a escolha certa para aqueles que desejam alcançar suas metas de saúde e bem-estar através da nutrição. Como consultores nutricionais, oferecemos orientação precisa e personalizada sobre dieta e suplementação para ajudar as pessoas a alcançar seus objetivos de perda de peso, melhora do desempenho esportivo e tratamento de doenças crônicas.</p>
+                </article>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="fale-conosco" id="contato">
+        <article>
+            <h1>Fale conosco</h1>
+            <h3>Pelo canal de atendimento ao cliente estamos disponíveis para atendê-lo(a) da melhor forma</h3>
+            <div class="item">
+                <img src="assets/TeleIconGreen.svg" width="20px" height="20px" alt="">
+                <p>(34) 9 3333 3333</p>
+            </div>
+            <div class="item">
+                <img src="assets/ZapIconGreen.svg" width="20px" height="20px" alt="">
+                <p>(34) 9 3333 3333</p>
+            </div>
+            <div class="item">
+                <img src="assets/EmailIconGreen.svg" width="20px" height="20px" alt="">
+                <p>contato@inovare.com.br</p>
+            </div>
+            <div class="item">
+                <img src="assets/GpsIcon.svg" width="20px" height="20px" alt="">
+                <p>Uberlândia, MG</p>
+            </div>
+            <button><img src="assets/ZapIcon.svg" width="20px" height="20px" alt="">
+                FALE CONOSCO PELO WHATSAPP
+            </button>
+        </article>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120774.73803834667!2d-48.263690149999995!3d-18.922071749999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4450c10bbbaef%3A0xae370c93616d5c9c!2zVWJlcmzDom5kaWEsIE1H!5e0!3m2!1spt-BR!2sbr!4v1735753327126!5m2!1spt-BR!2sbr" width="550" height="337" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+
+        <div class="column1">
+            <img src="assets/logobranca.png" alt="">
+            <p>Nutra seu corpo com saúde!</p>
+        </div>
+
+        <div class="column">
+            <h3>CONTATO</h3>
+            <div class="item">
+                <img src="assets/TeleIconGreen.svg" width="18px" height="18px" alt="">
+                <p>(34) 9 3333 3333</p>
+            </div>
+            <div class="item">
+                <img src="assets/ZapIconGreen.svg" width="18px" height="18px" alt="">
+                <p>(34) 9 3333 3333</p>
+            </div>
+            <div class="item">
+                <img src="assets/EmailIconGreen.svg" width="18px" height="18px" alt="">
+                <p>contato@inovarenutri.com.br</p>
+            </div>
+            <div class="item">
+                <img src="assets/GpsIcon.svg" width="18px" height="18px" alt="">
+                <p>Uberlândia, MG</p>
+            </div>
+        </div>
+
+        <div class="column" id="column-list">
+            <h3>INSTITUCIONAL</h3>
+            <button>Home</button>
+            <button>Sobre Nós</button>
+            <button>Blog</button>
+            <button>Contato</button>
+        </div>
+        
+        <div class="column" id="column-list">
+            <h3>NOSSAS ESPECIALIDADES</h3>
+            <button>Nutrição Esportiva</button>
+            <button>Nutrição Clinica</button>
+            <button>Nutrição Pediátrica</button>
+            <button>Consultoria Nutricional</button>
+        </div>
+
+        <div class="column">
+            <h3>ONDE NOS ENCONTRAR</h3>
+            <img src="assets/FaceIcon.svg" width="46px" height="46px" alt="">
+            <img src="assets/InstaIcon.svg" width="46px" height="46px" alt="">
+            <img src="assets/YtIcon.svg" width="46px" height="46px" alt="">
+            <img src="assets/TikTokIcon.svg" width="46px" height="46px" alt="">
+        </div>
+
+    </footer>
+
+    <div class="rodape">
+        <p>WebNauta - Copyright ® 2025 - Todos os Direitos Reservados.</p>
+    </div>
+
+</body>
+
+
+<script src="scripts.js"></script>
+</html>
+
+
+css: 
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", serif;
+}
+
+header {
+     display: flex;
+     position: sticky;
+     top: 0;
+}
+
+
+.nav-hidden {
+     background-color: #8EBA1C;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     height: 46px;
+     justify-content: center;
+     align-items: center;
+     transition: transform 0.3s ease;
+}
+
+.nav-1 {
+     display: flex;
+     color: white;
+     margin-left: 390px;
+}
+
+.item > img {
+     margin-right: 10px;
+     justify-content: center;
+     align-items: center;
+}
+
+.item {
+     display: flex;
+     margin-right: 40px;
+     font-size: 15px;
+     line-height: 24px;
+     align-items: center;
+}
+
+.nav-2 {
+     display: flex;
+     color: white;
+     margin-left: 145px;
+}
+
+.nav-2 > .item {
+     margin-right: 15px;
+}
+
+.nav-3 {
+     width: 100%;
+     height: 82px;
+     display: flex;
+     align-items: center;
+     padding-left: 390px;
+     background-color: white; 
+     position: sticky;
+     top: 0;
+     transition: all 0.3s ease;
+     box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav-3 > img {
+     margin-right: 125px;
+}
+
+.nav-3 > button {
+     border: none;
+     background-color: #FFFF;
+     margin-right: 30px;
+     height: 46px;
+     font-size: 16px;
+     line-height: 16px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: transform 0.3s ease;
+}
+
+.nav-3 > button:hover {
+     transform: scale(1.1);
+}
+
+.nav-3 > .strong {
+     margin-left: 220px;
+     background-color: #8EBA1C;
+     color: white;
+     height: 39px;
+     width: 185px;
+     border-radius: 30px;
+}
+
+
+
+.banner {
+     background-color: rgba(84, 111, 16, 0.90);
+     height: 635px;
+     width: 100%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color: #FFFF;
+     box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.514);
+}
+
+.banner > div > h1 {
+     font-family: "Baloo 2", serif;
+     font-size: 67px;
+     line-height: 66px;
+     font-weight: bolder;
+     max-width: 1140px;
+}
+
+.banner > div > p {
+     font-size: 22px;
+     line-height: 22px;
+     margin-top: 20px;
+}
+
+.banner-background {
+     background-image: url(assets/banner.jpg);
+     height: 635px;
+     width: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.sobre-mim {
+     display: flex;
+     margin-top: 80px;
+     margin-bottom: 80px;
+     justify-content: center;
+}
+
+.sobre-mim > article {
+     max-width: 548.9px;
+}
+
+.sobre-mim > article > .subtitle {
+     font-size: 27px;
+     font-weight: 500;
+     font-style: italic;
+     line-height: 27px;
+     color: #545252;
+     margin-bottom: 0;
+}
+
+.sobre-mim > article > h1 {
+     font-family: "Baloo 2", serif;
+     font-size: 66px;
+     line-height: 66px;
+     color: #8EBA1C;
+     font-weight: 800;
+     margin-bottom: 13.79px;
+}
+
+.sobre-mim > article > p {
+     font-size: 14px;
+     line-height: 22.4px;
+     color: #7A7A7A;
+     margin-bottom: 13.97px;
+}
+
+.sobre-mim > img {
+     margin-right: 20px;
+}
+
+.especialidades > h1 {
+     font-size: 51px;
+     line-height: 51px;
+     color: #8EBA1C;
+     font-family: "Baloo 2", serif;
+     text-align: center;
+     font-weight: 800;
+}
+
+.card-section {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+
+.especialidades >.card-section > .card {
+     height: 331.73px;
+     width: 346.34px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #171717;
+     color: white;
+     border-radius: 10px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     transition: transform 0.3s ease;
+}
+
+.card:hover {
+     transform: scale(1.1);
+}
+
+.especialidades > .card-section> .card > img {
+     color: white;
+     margin-top: 25px;
+     width: 70px;
+     height: 70px;
+}
+
+.especialidades > .card-section > .card > p {
+     text-align: center;
+     margin-left: 29.34px;
+     margin-right: 29.35px;
+     margin-bottom: 32.93px;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22.4px;
+}
+
+.especialidades > .card-section > .card > h3 {
+     font-size: 26px;
+     font-weight: 600;
+     line-height: 28px;
+     max-width: 253px;
+     max-height: 64px;
+     text-align: center;
+     margin-bottom: 10px
+}
+
+.card-section > #strong {
+     background-color: #8EBA1C;
+}
+
+.especialidades > button {
+     display: flex;
+     margin: auto;
+     background-color: #8EBA1C;
+     color: white;
+     border: none;
+     height: 55px;
+     width: 217px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 30px;
+     font-size: 15px;
+     line-height: 15px;
+     cursor: pointer;
+     transition: transform 0.3s ease;
+     margin-bottom: 70px
+}
+
+.especialidades > button:hover{
+     transform: scale(1.1);
+}
+
+.especialidades2 {
+     background-color: #171717;
+     height: 1065.47px;
+}
+
+.especialidades2 > h1 {
+     font-family: "Baloo 2", serif;
+     text-align: center;
+     font-weight: 800;
+     font-size: 66px;
+     line-height: 66px;
+     color: white;
+     padding-top: 70px;
+     margin-bottom: 20px
+}
+
+.card2-section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.especialidades2 > p {
+     color: white;
+     text-align: center;
+     font-size: 20px;
+     line-height: 20px;
+     margin-bottom: 42px;
+}
+
+.especialidades2 > .card2-section > .card2 {
+     background-color: white;
+     width: 1140px;
+     height: 177.56px;
+     display: flex;
+     color: #656161;
+     margin-bottom: 20.01px;
+}
+
+ .card2 > article > h3 {
+     margin-top: 30px;
+     margin-bottom: 14.79px;
+     font-size: 26px;
+     line-height: 28px;
+     font-weight: 600;
+}
+
+.card2 > article > p {
+     margin-bottom: 15.17px;
+     font-size: 14px;
+     line-height: 22.4px;
+     max-width: 1011.83px;
+}
+
+.card2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     transition: transform 0.3s ease;
+}
+
+.card2:hover {
+     transform: scale(1.1);
+}
+
+.card2 > img {
+     margin-right: 15px;
+     max-width: 70px;
+     max-height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.card2-section > #strong-green {
+     background-color: #8EBA1C;
+     color: white;
+}
+
+.fale-conosco {
+     background-color: #F2F2F2;
+     height: 497px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.fale-conosco > article {
+     max-width: 488px;
+     margin-right: 20px;
+}
+
+.fale-conosco > article > h1 {
+     font-family: "Baloo 2", sans-serif;
+     font-size: 51px;
+     line-height: 51px;
+     color: #8EBA1C;
+     font-weight: 800;
+     margin-bottom: 20px;
+     margin-top: 80px
+}
+
+.fale-conosco > article > h3 {
+     font-size: 20px;
+     line-break: 20px;
+     font-weight: 500;
+     font-style: italic;
+     color: #878787;
+     margin-bottom: 19.4px;
+}
+
+.fale-conosco > article > .item {
+     font-size: 17px;
+     line-height: 27.2px;
+     margin-bottom: 4px;
+     color: #5f5c5c;
+}
+
+.fale-conosco > article > img {
+     margin-right: 4px;
+}
+
+.fale-conosco > article > button {
+     display: flex;
+     background-color: #8EBA1C;
+     color: white;
+     border: none;
+     height: 55px;
+     width: 335px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 30px;
+     font-size: 15px;
+     line-height: 15px;
+     cursor: pointer;
+     transition: transform 0.3s ease;
+     margin-top: 13.59px;
+}
+
+.fale-conosco > article > button:hover{
+     transform: scale(1.1);
+}
+
+.fale-conosco > article > button > img {
+     margin-right: 5px;
+}
+
+.fale-conosco > iframe {
+     display: flex;
+     margin-top: 80px;
+}
+
+footer {
+     background-color: #171717;
+     color: white;
+     display: flex;
+     height: 298.17px;
+     gap: 28px;
+     justify-content: center;
+}
+
+footer > .column > img {
+     background-color: white;
+     border-radius: 26px;
+     cursor: pointer;
+
+}
+
+footer > .column {
+     max-width: 259.67px;
+}
+
+footer > .column > h3 {
+     font-size: 18px;
+     line-height: 18px;
+     font-weight: 600;
+     margin-top: 80px;
+     margin-bottom: 20px;
+}
+
+footer > .column > p {
+     font-size: 15px;
+     line-height: 24px;
+}
+
+footer > .column1 > img {
+     margin-top: 80px;
+     width: 206.41px;
+     height: 86.17px;
+}
+
+footer > .column1 > p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+#column-list {
+     display: flex;
+     flex-direction: column;
+}
+
+#column-list > button {
+     border: none;
+     background-color: #171717;
+     color: white;
+     font-size: 15px;
+     line-height: 24px;
+     font-weight: 300;
+     text-align: left;
+     cursor: pointer;
+}
+
+.rodape {
+     width: 100%;
+     text-align: center;
+     background-color: #8EBA1C;
+     color: white;
+     padding: 12px;
+}
+
+a {
+     text-decoration: none;
+     color: #171717;
+}
+
+.strong > a {
+     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
