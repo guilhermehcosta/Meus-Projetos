@@ -8,7 +8,6 @@
 body {
      opacity: 1;
      transition: opacity 0.5s;
-     z-index: 1000000000000000;
  }
  
  body.loaded {
@@ -562,13 +561,13 @@ a {
      }
 
      .sobre-mim > img {
-          max-width: 50%;
+          width: 55%;
           margin-bottom: 10px;
      }
 
      .sobre-mim > article {
           text-align: center;
-          max-width: 65%;
+          
      }
 
      .sobre-mim > article > p {
@@ -675,6 +674,10 @@ a {
           font-size: 60px;
      }
 
+     .sobre-mim > img {
+          width: 55%;
+     }
+
      .especialidades > .card-section > .card {
           height: 365px;
      }
@@ -728,6 +731,10 @@ a {
           display: none;
      }
 
+     .sobre-mim > img {
+          width: 55%;
+     }
+
      .especialidades2 {
           display: flex;
           justify-content: center;
@@ -737,6 +744,10 @@ a {
 }
 
 @media (max-width: 850px) {
+
+     .sobre-mim > img {
+          width: 55%;
+     }
 
           .especialidades > h1 {
                margin-bottom: 40px;
@@ -866,14 +877,26 @@ a {
  
      .sobre-mim {
          flex-direction: column;
+         text-align: left;
      }
 
      .sobre-mim > img {
-          width: 240px;
-          height: 200px;
+          width: 85%;
           margin-right: 0;
      }
 
+     .sobre-mim > article {
+          width: 400px;
+          text-align: left;
+          margin-left: 0;
+          justify-content: left;
+          align-items: start;
+     }
+
+     .sobre-mim > article > p {
+          width: 400px;
+          text-align: left;
+     }
      
      .sobre-mim > article > h1 {
           font-size: 49px;
@@ -955,6 +978,11 @@ a {
  }
  
  @media (max-width: 480px) {
+     .sobre-mim > article {
+          max-width: 460px;
+          min-width: 300px;
+     }
+     
      .nav-3 a {
          font-size: 0.9rem;
      }
